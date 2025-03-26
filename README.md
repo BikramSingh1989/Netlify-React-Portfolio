@@ -42,9 +42,6 @@ This is a responsive single-page **React portfolio** built with **Vite** and dep
 
 ## 🖼️ Screenshots
 
-### 🔹 Home / About Section
-![About Screenshot](./assets/React Portfolio.png)
-
 ### 🔹 Portfolio Section
 ![Portfolio Screenshot](./assets/Portfolio.png)
 
