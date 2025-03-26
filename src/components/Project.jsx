@@ -1,10 +1,12 @@
 function Project({ title, image, appLink, repoLink }) {
     return (
-      <div className="border p-2">
-        <img src={image} alt={title} className="w-full" />
-        <h3>{title}</h3>
-        <a href={appLink} target="_blank" rel="noopener noreferrer">Live App</a> |{' '}
-        <a href={repoLink} target="_blank" rel="noopener noreferrer">GitHub</a>
+      <div className="project-card">
+        <img src={image} alt={`${title} screenshot`} />
+        <h3 style={{ marginTop: '1rem', fontSize: '1.25rem' }}>{title}</h3>
+        <p style={{ marginTop: '0.5rem' }}>
+          <a href={appLink} target="_blank" rel="noreferrer">Live App</a> |{' '}
+          <a href={repoLink} target="_blank" rel="noreferrer">GitHub Repo</a>
+        </p>
       </div>
     );
   }

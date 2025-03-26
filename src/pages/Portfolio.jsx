@@ -2,10 +2,10 @@ import Project from '../components/Project';
 
 const projects = [
   {
-    title: 'Cool Project 1',
+    title: 'React Portfolio',
     image: '/assets/project1.png',
     appLink: 'https://example.com/project1',
-    repoLink: 'https://github.com/yourusername/project1',
+    repoLink: 'https://github.com/BikramSingh1989/Netlify-React-Portfolio',
   },
   ];
 

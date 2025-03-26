@@ -8,7 +8,7 @@ function Navigation({ currentPage, handlePageChange }) {
             <li
               key={page}
               onClick={() => handlePageChange(page)}
-              className={`cursor-pointer ${currentPage === page ? 'underline font-bold' : ''}`}
+              className={`cursor-pointer ${currentPage === page ? 'active' : ''}`}
             >
               {page}
             </li>

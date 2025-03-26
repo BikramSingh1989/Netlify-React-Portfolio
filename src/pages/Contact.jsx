@@ -32,7 +32,7 @@ function Contact() {
         {errors.message && <p>{errors.message}</p>}
         <button type="submit">Send</button>
       </form>
-      <p>Or email me at: your.email@example.com</p>
+      <p>Or email me at: singhsubway@gmail.com</p>
     </section>
   );
 }
