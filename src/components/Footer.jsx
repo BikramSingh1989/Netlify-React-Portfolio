@@ -1,7 +1,7 @@
 function Footer() {
     return (
       <footer className="bg-dark text-light p-4 text-center">
-        <p>© {new Date().getFullYear()} Lernantino</p>
+        <p>© {new Date().getFullYear()} Bikram Singh</p>
         <div className="flex justify-center gap-4 mt-2">
           <a href="https://github.com/BikramSingh1989" target="_blank">GitHub</a>
           <a href="https://linkedin.com/in/bikram-singh-660b09311" target="_blank">LinkedIn</a>
