@@ -3,7 +3,7 @@ import Project from '../components/Project';
 const projects = [
   {
     title: 'React Portfolio',
-    image: '/assets/React Portfolio.png',
+    image: <img src="/assets/React-Portfolio.png" alt="React-Portfolio" style={{ width: '100px', borderRadius: '50%' }} />,
     appLink: 'https://bikramsinghs-react-portfolio.netlify.app/',
     repoLink: 'https://github.com/BikramSingh1989/Netlify-React-Portfolio',
   },
